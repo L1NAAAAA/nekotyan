@@ -1,0 +1,100 @@
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: Neucha;
+    font-size: 16px;
+    background-color: #e6e1f3
+}
+
+main {
+    padding-top: 60px;
+}
+
+.menu-list{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    min-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#header {
+    background-color: #ccbfee;
+    box-shadow: 0px 10px 7px #ccbfee;
+    position: fixed;
+    width: 100%;
+
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+
+
+}
+#header nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#header .menu-list a {
+    color: #35415e;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#header .menu-list a:hover {
+    color: #6d86bf;
+}
+
+#logo {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+#logo span {
+    font-size: 40px;
+    color: #35415e;
+    margin-left: 8px;
+
+}
+
+.btn {
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: 1px solid #35415e;
+    color: #35415e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: #6d86bf;
+    color: #6d86bf;
+}
+
+.btn-auth{
+    float: right;
+
+}
