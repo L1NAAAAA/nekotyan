@@ -9,6 +9,15 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+p {
+
+}
+
+
 body {
     font-family: Neucha;
     font-size: 16px;
@@ -42,6 +51,7 @@ main {
     box-shadow: 0px 10px 7px #ccbfee;
     position: fixed;
     width: 100%;
+    z-index: 1;
 
 }
 
@@ -156,3 +166,29 @@ footer .footer-menu a:hover {
 
 .last-footer-block a:hover {
     color: #35415e;
+}
+
+.head-block {
+    background-color: #e0daf1;
+    background-image: url("../img/banner.png");
+    height: 428px;
+    background-repeat: no-repeat;
+    background-size: 53%;
+    background-position:top 15% right;
+    margin-bottom: 40px;
+    box-shadow: 0px 10px 7px #e0daf1;
+
+}
+.head-block img {
+    width: 469px;
+    position: absolute;
+    padding-left: 225px;
+}
+.head-block h1 {
+    padding-top: 160px;
+}
+
+.head-block p {
+    font-size: 20px;
+    margin-top: 14px;
+}
